@@ -1,4 +1,4 @@
-#### 14Kb Single Page App
+## 14Kb Single Page App
 
 ### 14Kb
 .. is the approximate size of a TCP frame. Time-to-first-render (TTFR) depends on (among other limiting factors) the size of the minimal version of your page. More data takes longer fetch, right?
