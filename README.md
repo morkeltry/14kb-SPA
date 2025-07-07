@@ -16,3 +16,18 @@ As I write this, before beginning, I envision this will be done simply by placin
 But I'll be comparing between hand-coded and preact for how much control the developer has over this.
 
 
+### Install / run
+
+-   `cd preact && yarn install` - Install
+
+-   `yarn dev` - Starts a dev server at http://localhost:5173/
+
+-   `yarn build` - Builds for production, emitting to `dist/`
+
+-   `yarn preview` - Starts a server at http://localhost:4173/ to test production build locally
+
+### Code notes
+
+Due to Yarn Berry & Preact possible incompatibility, the deceptively named Plug 'n' Play is disabled with `nodeLinker: node-modules`.
+
+
