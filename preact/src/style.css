@@ -34,12 +34,28 @@ img:hover {
 	filter: drop-shadow(0 0 2em #673ab8aa);
 }
 
+/* HTML element section - unused */
 section {
 	margin-top: 5rem;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 1.5rem;
 }
+
+.section {
+  overflow: hidden;
+  transition: height 0.18s;
+}
+.section--hidden {
+  pointer-events: none;
+}
+.section__placeholder {
+  text-align: center;
+  font-size: 0.85em;
+  color: #888;
+  opacity: 0.7;
+}
+
 
 .resource {
 	padding: 0.75rem 1.5rem;
